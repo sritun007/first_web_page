@@ -1,154 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>The one direction | Store</title>
- </head>
-<body>
-    <header>
-       <nav>
-           <ul>
-               <li><a href="home.html">HOME</a></li>
-               <li><a href="store.html">STORE</a></li>
-               <li><a href="about.html">ABOUT</a></li>
-           </ul>
-       </nav>
-       <hr>
-       <h1>One Direction</h1>
-    </header>
-
-
-<section>
-    <h2>MUSIC</h2>
-    <div>
-        <div>
-            <strong>Album1</strong>
-
-        </div>
-        <img src="\images\album1.jpg" >
-
-        <div>
-            <span>$12.50</span>
-            <button type="button">Add to cart</button>
-        </div>
-        <div>
-            <strong>Album2</strong>
-
-        </div>
-        <img src="\images\album2.jpg" >
-
-        <div>
-            <span>$14.50</span>
-            <button type="button">Add to cart</button>
-        </div>
-        <div>
-            <strong>Album3</strong>
-
-        </div>
-        <img src="\images\album3.jpg" >
-
-        <div>
-            <span>$13.50</span>
-            <button type="button">Add to cart</button>
-        </div>
-
-        <div>
-            <strong>Album4</strong>
-
-        </div>
-        <img src="\images\album4.jpg" >
-
-        <div>
-            <span>$15.50</span>
-            <button type="button">Add to cart</button>
-        </div>
-    </div>
-
-</section>
-
-<section>
-    <h2>MERCH</h2>
-    <div>
-        <strong>Album1</strong>
-
-    </div>
-    <img src="\images\album1.jpg" >
-
-    <div>
-        <span>$12.50</span>
-        <button type="button">Add to cart</button>
-    </div>
-    <div>
-        <strong>Album2</strong>
-
-    </div>
-    <img src="\images\album2.jpg" >
-
-    <div>
-        <span>$12.50</span>
-        <button type="button">Add to cart</button>
-    </div>
-</section>
-
-<section>
-    <h2>CART</h2>
-    <div>
-        <strong>ITEM</strong>
-        &lt;&gt;
-        <strong>PRICE</strong>
-        &lt;&gt;
-        <strong>QUANTITY</strong>
-        &lt;&gt;
-    </div>
-    <div>
-        <img src="\images\album2.jpg" width="30">
-        &lt;&gt;
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>$12.50</span>
-        <input type="number" value="1">
-        <button type="button">REMOVE</button>
-
-    </div>
-
-    <div>
-        <img src="\images\album1.jpg" width="30">
-        &lt;&gt;
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>$12.50</span>
-        <input type="number" value="2">
-        <button type="button">REMOVE</button>
-
-    </div>
-
-    <div>
-        <img src="\images\album3.jpg" width="30">
-        &lt;&gt;
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>$12.50</span>
-        <input type="number" value="3">
-        <button type="button">REMOVE</button>
-
-    </div>
-
-    <hr>
-
-   <div>
-    <strong>TOTAL</strong>
-    <span>$39.5</span>    
-
-   </div>
-
-   <div><button type="button">PURCHASE</button></div>
-</section>
-<footer>
-    <h3>One Direction</h3>
-    <ui>
-        <li><a href="https://youtube.com" target="_blank"><img src="images\download.png" width="30"></a></li>
-        <li><a href="https://spotify.com" target="_blank"><img src="images\download (1).jpg" width="30"></a></li> 
-    </ui>
-</footer>
-</body>
+<html>
+    <head>
+        <title>One Direction | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">One Direction</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 1</span>
+                    <img class="shop-item-image" src="Images/Album 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                    <img class="shop-item-image" src="Images/Album 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                    <img class="shop-item-image" src="Images/Album 3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image" src="Images/Album 4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="Images/Shirt.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Coffee Cup</span>
+                    <img class="shop-item-image" src="Images/Coffee.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Shirt.jpg" width="100" height="100">
+                        <span class="cart-item-title">T-Shirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Album 3.jpg" width="100" height="100">
+                        <span class="cart-item-title">Album 3</span>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">One Direction</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
-
