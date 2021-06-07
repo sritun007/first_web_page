@@ -73,11 +73,11 @@ html, body {
 }
 
 .content-section {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
@@ -86,7 +86,7 @@ html, body {
     font-weight: normal;
     color: #333;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .about-band-image {
@@ -100,7 +100,7 @@ html, body {
 .main-footer {
     background-color: #56CCF2;
     color: white;
-    padding: .25em 0;
+    padding: 1.2em 0;
 }
 
 .main-footer-container {
@@ -109,7 +109,7 @@ html, body {
 }
 
 .main-footer-container ul {
-    flex-grow: 1;
+    flex-grow: 2;
     text-align: end;
 }
 
